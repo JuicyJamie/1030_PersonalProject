@@ -4,8 +4,13 @@
     margin: 0;
 }
 
+body {
+    background-color: floralwhite;
+    color: #3f3844;
+}
+
 nav {
-    margin: 25px 30px 30px 20px;
+    margin: 25px 60px 20px 60px;
 }
 nav ul {
     list-style-type: none;
@@ -15,10 +20,15 @@ nav ul li {
     margin: 10px;
 }
 nav ul li a {
-    color: black;
+    color: #3f3844;
     font-family: Verdana, Arial, Helvetica, Tahoma, sans-serif;
     text-decoration: none;
     display: block;
+    border-bottom: 3px solid floralwhite;
+    transition: border-bottom 0.4s;
+}
+nav ul li a:hover {
+    border-bottom: 3px solid #3f3844;
 }
 
 .mainlist {
@@ -34,16 +44,6 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.rightlist li a {
-    border-bottom: 1px solid transparent;
-    transition: border-bottom 0.35s;
-}
-.rightlist li a:hover {
-    border-bottom: 1px solid black;
-}
-#myname {
-    font-size: 2em;
 }
 main {
     clear: both;
