@@ -68,22 +68,34 @@ main {
     border-radius: 15px;
     background-color: #3f3844;
     color: floralwhite;
-    padding: 30px;
+    padding: 20px;
     overflow: auto;
 }
 .lengthwiseContent h2 {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.contentGrid {
+    display: grid;
+    grid-template-columns: auto auto;
 }
 .imgWrapper {
+    display: flex;
+    margin-top: 10px;
     border-radius: 15px;
     background-color: floralwhite;
-    float: left;
     width: 250px;
     margin-right: 15px;
+    align-items: center;
 }
 .imgWrapper img {
     border-radius: 15px;
     width: 100%;
+}
+
+.contentList li{
+    margin-left: 15px;
+    margin-bottom: 10px;
 }
 
 footer {
