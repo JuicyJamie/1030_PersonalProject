@@ -70,10 +70,22 @@ main {
     color: floralwhite;
     padding: 20px;
     overflow: auto;
+    position: relative;
 }
 .lengthwiseContent h2 {
+    display: inline-block;
     padding-bottom: 10px;
     padding-top: 10px;
+}
+.lengthwiseContent h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+.headers {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 .contentGrid {
     display: grid;
