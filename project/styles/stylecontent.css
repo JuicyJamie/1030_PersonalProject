@@ -109,7 +109,15 @@ main {
     margin-left: 15px;
     margin-bottom: 10px;
 }
-
+.contentList dt {
+    margin-bottom: 10px;
+    font-size: larger;
+    font-weight: bold;
+}
+.contentList dd {
+    margin-bottom: 10px;
+    font-size: larger;
+}
 footer {
     position: fixed;
     right: 0;
