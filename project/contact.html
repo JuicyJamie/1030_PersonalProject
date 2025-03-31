@@ -1,51 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="keywords" content="HTML, CSS, Java, C++, web-developer, web-dev, JP, JB, JD, Arellano, student, internship"> 
-        <meta name="description" content="JP Arellano is a student attending Langara College. He is proficient in HTML and CSS, and is currently looking for an internship position.">
-        <title>JP Arellano - Personal Experience</title>
-        <link rel="stylesheet" href="styles/stylecontent.css">
-        <link rel="stylesheet" href="styles/contact.css">
-        <link rel="icon" type="image/x-icon" href="images/favicon.png">
-    </head>
-    <body>
-        <div id="wrapper">
-            <nav>
-                <ul class="mainlist">
-                    <ul class="leftlist">
-                        <li><h2><a href="index.html">James Patrick Arellano</a></h2></li>
-                    </ul>
-                    <!-- maybe figure out how to make a drop down menu on hover for experience -->
-                     <ul class="rightlist">
-                        <li><a href="workexperience.html">Work Experience</a></li>
-                        <li><a href="personalexperience.html">Personal Experience</a></li>
-                        <li><a href="education.html">Education</a></li>
-                        <li><a href="aboutme.html">About me</a></li>
-                        <li><a href="contact.html">Contact</a></li>                
-                     </ul>
-                </ul>
-            </nav>
-            <header>
-                <h1>Contact</h1>
-            </header>
-            <main>
-                <ul>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+        content="HTML, CSS, Java, C++, web-developer, web-dev, JP, JB, JD, Arellano, student, internship">
+    <meta name="description"
+        content="JP Arellano is a student attending Langara College. He is proficient in HTML and CSS, and is currently looking for an internship position.">
+    <title>JP Arellano - Personal Experience</title>
+    <link rel="stylesheet" href="styles/stylecontent.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+</head>
+
+<body>
+    <div id="wrapper">
+        <nav>
+            <ul class="mainlist">
+                <ul class="leftlist">
                     <li>
-                        <a href="mailto:jparellano323@outlook.com" target="_blank">Email</a>
-                    </li>
-                    <li>
-                        <a href="tel:+16046526706">+1 ###-###-####</a>
-                    </li>
-                    <li>
-                        <a href="https://discordapp.com/users/222841781769732096" target="_blank">Discord</a>
+                        <h2><a href="index.html">James Patrick Arellano</a></h2>
                     </li>
                 </ul>
-            </main>
-            <footer>
-                @JP Arellano 2025
-            </footer>
+                <!-- maybe figure out how to make a drop down menu on hover for experience -->
+                <ul class="rightlist">
+                    <li><a href="workexperience.html">Work Experience</a></li>
+                    <li><a href="personalexperience.html">Personal Experience</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="aboutme.html">About me</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </ul>
+        </nav>
+        <div id="centeredContent">
+            <div id="leftContent">
+                <header>
+                    <h1>Contact</h1>
+                </header>
+                <main>
+                    <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+                        <fieldset>
+                            <label for="fname">First Name: </label>
+                            <input type="text" id="fname" name="fname" placeholder="John" required> <br>
+                            <br>
+                            <label for="lname">Last Name: </label>
+                            <input type="text" id="lname" name="lname" placeholder="Pork" required> <br>
+                            <br>
+                            <label for="email">Email: </label>
+                            <input type="email" id="email" name="email" placeholder="jpork@email.net" required> <br>
+                            <br>
+                            <label for="comments">Comments: </label> <br>
+                            <textarea name="comments" id="comments" placeholder="Write any comments here..." rows="4"
+                                cols="40" required></textarea> <br>
+
+                            <input type="submit" value="Send">
+                        </fieldset>
+                    </form>
+                </main>
+            </div>
+            <ul>
+                <li>
+                    <a href="mailto:jparellano323@outlook.com" target="_blank">Email</a>
+                </li>
+                <li>
+                    <a href="tel:+16046526706">+1 ###-###-####</a>
+                </li>
+                <li>
+                    <a href="https://discordapp.com/users/222841781769732096" target="_blank">Discord</a>
+                </li>
+            </ul>
         </div>
-    </body>
+
+        <footer>
+            @JP Arellano 2025
+        </footer>
+    </div>
+</body>
+
 </html>

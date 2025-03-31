@@ -2,21 +2,57 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    color: #3f3844;
 }
 
 header {
-text-align: center;
+}
+#leftContent {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#centeredContent {
+    height: 500px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+form {
+    display: inline-block;
+}
+fieldset {
+    border-radius: 15px;
+    padding: 50px;
+}
+input[type="text"], input[type="email"] {
+    border-radius: 10px;
+    border: 1px solid #3f3844;
+    padding: 5px;
+}
+textarea {
+    margin: 10px 0;
+}
+input[type="submit"] {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid #3f3844;
+    background-color: #3f3844;
+    color: floralwhite;
+    transition: background-color 0.5s, color 0.5s;
+}
+input[type="submit"]:hover {
+    background-color: floralwhite;
+    color: #3f3844;
 }
 
-main ul {
+
+#centeredContent ul {
+    display: inline-block;
     list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin: 15px;
 }
-main ul li a {
+#centeredContent ul li a {
     text-align: center;
     border: 1px solid #3f3844;
     background-color: #3f3844;
@@ -25,11 +61,11 @@ main ul li a {
     display: block;
     padding: 10px;
     margin: 20px;
-    width: 250px;
+    width: 200px;
     border-radius: 100px;
     transition: background-color 0.5s, color 0.5s;
 }
-main ul li a:hover {
+#centeredContent ul li a:hover {
     background-color: floralwhite;
     color: #3f3844;
 }
