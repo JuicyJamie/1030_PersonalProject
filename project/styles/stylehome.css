@@ -80,14 +80,18 @@ main ul#links li a:hover {
     color: #3f3844;
 }
 main ul#introList {
-    margin-top: 5px;
+    padding-left: 30px;
+    margin-top: 10px;
     font-size: 1.2em;
 }
 main span {
     font-size: 1.2em;
 }
 #introBlurb {
-    margin-top: 40px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 #leftofpic {
