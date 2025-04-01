@@ -15,6 +15,7 @@ nav {
 }
 nav ul {
     list-style-type: none;
+    font-size: 1.1em;
 }
 nav ul li {
     text-align: center;
@@ -55,16 +56,16 @@ main {
     align-items: center;
 }
 main img {
-    width: 30%;
+    width: 25vw;
     border-radius: 100%;
 }
-main ul {
+main ul#links {
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
     margin: 15px;
 }
-main ul li a {
+main ul#links li a {
     border: 1px solid #3f3844;
     background-color: #3f3844;
     text-decoration: none;
@@ -74,16 +75,28 @@ main ul li a {
     border-radius: 100px;
     transition: background-color 0.5s, color 0.5s;
 }
-main ul li a:hover {
+main ul#links li a:hover {
     background-color: floralwhite;
     color: #3f3844;
 }
+main ul#introList {
+    margin-top: 5px;
+    font-size: 1.2em;
+}
+main span {
+    font-size: 1.2em;
+}
+#introBlurb {
+    margin-top: 40px;
+}
+
 #leftofpic {
     margin-right: 150px;
     font-family: Verdana, Arial, Helvetica, Tahoma, sans-serif;;
 }
 #leftofpic h1 {
     font-size: 3em;
+    text-align: center;
 }
 
 footer {
