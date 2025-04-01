@@ -120,8 +120,10 @@ main {
 }
 footer {
     position: fixed;
-    right: 0;
     bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 /* Tablet layout */
 @media screen and (max-width: 900px) {

@@ -7,6 +7,7 @@
 body {
     background-color: floralwhite;
     color: #3f3844;
+    font-family: Verdana, Arial, Helvetica, Tahoma, sans-serif;
 }
 
 nav {
@@ -87,8 +88,10 @@ main ul li a:hover {
 
 footer {
     position: fixed;
-    right: 0;
     bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 /* Tablet layout */
 @media screen and (max-width: 900px) {
