@@ -15,6 +15,7 @@ nav {
 }
 nav ul {
     list-style-type: none;
+    font-size: 1.1em;
 }
 nav ul li {
     text-align: center;
