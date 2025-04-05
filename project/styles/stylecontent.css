@@ -134,10 +134,36 @@ footer {
 }
 /* Tablet layout */
 @media screen and (max-width: 900px) {
-    
+    nav {
+        margin: 0;
+    }
+    .headers {
+        flex-direction: column;
+    }
+    #centeredContent {
+        grid-template-columns: 10% 80% 10%;
+    }
 }
 
 /* Mobile layout */
-@media screen and (max-width: 600px) {
-    
+@media screen and (max-width: 700px) {
+    .imgWrapper {
+        display: none;
+    }
+    nav a{
+        margin: 0;
+        font-size: 1.3em;
+    }
+    .mainlist {
+        display: block;
+    }
+    .leftlist {
+        display: block;
+    }
+    .rightlist {
+        display: block;
+    }
+    .rightlist li {
+        border-bottom: 1px solid #3f3844;
+    }
 }
