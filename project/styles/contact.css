@@ -5,6 +5,12 @@
     color: #3f3844;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #leftContent {
     display: flex;
     align-items: center;
@@ -18,21 +24,31 @@
 }
 form {
     display: inline-block;
+    background-color: floralwhite;
+    border-radius: 15px;
 }
 fieldset {
     border-radius: 15px;
     padding: 50px;
+    border: none;
+    width: 50vw;
 }
+
 input[type="text"], input[type="email"] {
+    margin-top: 5px;
     border-radius: 10px;
     border: 1px solid #3f3844;
     padding: 5px;
+    width: 100%;
 }
 textarea {
     margin: 10px 0;
+    width: 100%;
+    min-height: 10vh;
 }
 input[type="submit"] {
     padding: 10px 15px;
+    min-width: 10vw;
     border-radius: 10px;
     border: 1px solid #3f3844;
     background-color: #3f3844;
@@ -59,11 +75,41 @@ input[type="submit"]:hover {
     display: block;
     padding: 10px;
     margin: 20px;
-    width: 200px;
+    min-width: 200px;
     border-radius: 100px;
     transition: background-color 0.5s, color 0.5s;
 }
 #centeredContent ul li a:hover {
     background-color: floralwhite;
     color: #3f3844;
+}
+
+#formWrapper {
+    padding: 10px;
+    background-color: #3f3844;
+    border-radius: 15px;
+}
+
+/* Tablet layout */
+@media screen and (max-width: 900px) {
+    main {
+        flex-direction: column;
+    }
+    #centeredContent ul {
+        margin: 0;
+        width: 100%;
+    }
+
+    #centeredContent ul li a{
+        min-width: none;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    label {
+        display: block;
+        width: 100%;
+    }
+
 }

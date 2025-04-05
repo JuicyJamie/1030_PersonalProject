@@ -96,6 +96,9 @@ main {
     display: grid;
     grid-template-columns: auto auto;
 }
+.contentGrid p, .contentGrid li {
+    line-height: 175%;
+}
 .imgWrapper {
     display: flex;
     margin-top: 10px;
